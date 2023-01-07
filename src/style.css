@@ -1,0 +1,172 @@
+/*
+font-family: 'Anybody', cursive;
+font-family: 'Bangers', cursive;
+font-family: 'Fleur De Leah', cursive;
+font-family: 'Inspiration', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Martian Mono', monospace;
+font-family: 'Noto Sans', sans-serif;
+
+*/
+
+body{
+    padding:0;
+    margin:0;
+    height: 100vh;
+    box-sizing: border-box;
+    color: #F1FFFA;
+        font-family: 'Lato', sans-serif;
+}
+
+/* START -> Estilos generales */
+
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#icon {
+    font-size: 2rem;
+    width: 30px;
+}
+
+
+.container {
+width: 100%;
+height: 100vh;
+display:flex;
+gap:0;
+}
+/* END -> Estilos generales */
+
+
+
+
+
+
+/* START -> Seccion menu */
+
+.menu{
+background: #96E6B3;
+color: #F1FFFA;
+width: 25%;
+display:flex;
+flex-direction: column;
+gap: .2rem;
+align-items: center;
+padding: 1rem;
+font-family: 'Anybody', cursive;
+
+}
+.logo {
+    margin-top: 1.3rem;
+    margin-bottom: 4rem;
+    width: 5rem;
+
+}
+
+.linkbox {
+    display:flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    align-self: flex-start;
+    margin-left: 1rem;
+}
+
+.link{
+    text-decoration:none;
+    color: inherit;
+    font-size: 1.3rem;
+    text-align: start;
+    margin: 1rem;
+}
+.link:hover {
+    color: #464E47
+}
+.menu-down-box{
+    display: flex;
+    flex-direction: column;
+    background-color: #CCFCCB;
+    width: 60%;
+    height: 20%;
+    aspect-ratio:1;
+    margin-top:3rem;
+    border-radius: 20px;
+    padding: 1.2rem;
+    color:#F1FFFA;
+}
+
+.menu-down-box-title {
+    display: flex;
+    gap:1rem;
+    align-items: center;
+}
+.menu-down-box-title h2 {
+    font-size: 2rem;
+    color:#464E47;
+    
+}
+.menu-down-box-title p {
+    font-size: .7rem;
+    color:#464E47;;
+}
+.agricultor{
+    height: 170px;
+}
+
+/* END -> Seccion menu  */
+.central,
+.derecha {
+    
+    color: #464E47;
+    padding: 2rem;
+    display:flex;
+    flex-direction: column;
+    font-size: .8rem;
+}
+
+
+/* START -> Seccion central */
+
+.central {
+    background-color: #CCFCCB;
+    width: 75%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.form{
+    width: 80%;
+    background-color: #96E6B3;
+    border-radius: 20px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30%;
+    gap: .5rem;
+    font-size: 1.2rem;
+}
+input[type=text]{
+    width: 90%;
+}
+label {
+    display:flex;
+    flex-direction: row;
+}
+
+
+/* END -> Seccion menu  */
+
+
+
+/* START -> Seccion central */
+
+.derecha {
+    background-color: #96E6B3;
+    width: 22%;
+    color: #F1FFFA;
+}
+
